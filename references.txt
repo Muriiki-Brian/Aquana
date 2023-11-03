@@ -25,4 +25,3 @@ What's new?
 -responsive navbar
 -new font awesome Icons
 -fully responsive site
--

@@ -329,6 +329,9 @@ h4{
     gap: 10px;
     margin-bottom: 5%;
 }
+.newsletter h2{
+    text-decoration: underline;
+}
 fieldset{
     height: 30px;
     width: 300px;
@@ -395,6 +398,7 @@ outline: none;
 }
 .footer a{
     text-decoration: none;
+    color: purple;
 }
 .footer a:hover{
     color: grey;
@@ -482,8 +486,8 @@ outline: none;
 }
 
 @media (max-width:500px){
-    .footer{
-        font-size:14px;
+    .footer p,.footer a,.footer span{
+        font-size:15px;
     }
     #count{
         font-size:15px;
@@ -494,6 +498,9 @@ outline: none;
     }
     #carry{
         width: 95%;
+    }
+    .newsletter h2{
+        font-size: 20px;
     }
     fieldset{
         width:100%;

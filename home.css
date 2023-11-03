@@ -161,6 +161,13 @@ body{
     text-decoration-color: lightblue;
     /* width: fit-content; */
 }
+.how-it-works{
+    margin: 2.5rem auto;
+}
+.how-it-works i{
+    margin-right: 1rem;
+}
+
 .words{
     display: flex;
     flex-direction: column;
@@ -175,7 +182,9 @@ body{
     font-size: 19px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     display:grid;
-    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));  
+    grid-template-columns: repeat(auto-fill,minmax(250px,90%));
+    align-items: center; 
+    justify-content: center; 
     gap: 30px;
 }
 .images figure {
@@ -338,7 +347,7 @@ text-indent: .5rem;
 outline: none;
 }
 .submit{
-    height: 29px;
+    height: 38px;
     /* width: 100px; */
     padding: 0px 5px;
     background-color: blue;
@@ -348,7 +357,8 @@ outline: none;
 }
 #submit{
     text-decoration: none;
-    color: black;
+    color:white;
+    font-weight: bolder;
 }
 
 .links{
@@ -429,11 +439,18 @@ outline: none;
         height: auto;
         justify-content: center;
         text-align: center;
-        /* padding: 4% 1%; */
+        padding-bottom: 3rem;
+        margin-bottom: 1.5rem;
     }
     .where-we-deliver{
         flex-direction: column;
         height: auto;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+    .explanation{
+        font-size: 14px;
     }
     .map{
         width:100%;
@@ -454,12 +471,20 @@ outline: none;
         font-size: 15px;
     }
     .footer{
-        padding: 2% 5%;
+        padding: 2rem 5%;
         font-size: 15px;
     }
+    
+    fieldset{
+        height: 40px;
+    }
+
 }
 
 @media (max-width:500px){
+    .footer{
+        font-size:14px;
+    }
     #count{
         font-size:15px;
     }
@@ -469,6 +494,14 @@ outline: none;
     }
     #carry{
         width: 95%;
+    }
+    fieldset{
+        width:100%;
+       margin: 1rem 0;
+    }
+    
+    fieldset #email{
+       width: 75%;
     }
 }
 

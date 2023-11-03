@@ -7,8 +7,22 @@ color pallete [#1E55B3 (blue) , #ff585f (red) , #FFFFFF (white) ]
 freepik.com - ai generated
 To download premium rated photos use fpdl.in (copy the link address of the image and paste it inside fpdl.in searchbar)
 
+pngegg.com - navbar logo photo
+
 3.Icons
 fontAwesome Icons
 search for fontawesome cdn and place the link in your header
 
+4.fonts
+fonts by google - 'poppins' , 'kalam' ...
+use the @import and paste the font link inside css
 
+
+
+//releas-notes
+What's new?
+-added meta description in the header
+-responsive navbar
+-new font awesome Icons
+-fully responsive site
+-

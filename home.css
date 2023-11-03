@@ -460,6 +460,9 @@ outline: none;
 }
 
 @media (max-width:500px){
+    #count{
+        font-size:15px;
+    }
     #refreshment{
         font-size: 2.5rem;
     }

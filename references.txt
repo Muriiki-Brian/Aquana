@@ -1,0 +1,14 @@
+1.The logos
+=> site used - app.logo com
+app.logo.com enables you to generate and customise logos for free
+color pallete [#1E55B3 (blue) , #ff585f (red) , #FFFFFF (white) ]
+
+2.New images
+freepik.com - ai generated
+To download premium rated photos use fpdl.in (copy the link address of the image and paste it inside fpdl.in searchbar)
+
+3.Icons
+fontAwesome Icons
+search for fontawesome cdn and place the link in your header
+
+

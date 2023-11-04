@@ -355,16 +355,7 @@ outline: none;
     .links{
         grid-template-columns: auto auto;
     }
-    /* .images{
-        flex-direction: column;
-        align-items: center;
-    } */
-    .images figure{
-        /* border: 1px solid blue; */
-    }
-    .images figcaption{
-        /* border: 1px solid; */
-    }
+
     .where-we-deliver{
         flex-direction: column;
         height: auto;

@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    /* border: 1px solid black; */
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+}
+body{
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    padding: 4%;
+    background:linear-gradient(to right,rgb(110, 110, 188),rgb(55, 55, 218));
+}
+form{
+    width: 90%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns:50% 50%;
+    border: 1px solid black;
+    /* justify-content: space-between; */
+    background-color: white;
+    margin: auto;
+}
+.hello{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid black;
+    /* width: 49; */
+    gap: 10px;
+    width:100%;
+}
+.image{
+height: 100%;
+width: 100%;
+overflow: hidden;
+}
+#athlete{
+    width: 100%;
+    /* height: 100%; */
+    object-fit: contain;
+}
+.remember{
+    display: flex;
+    flex-direction: row;
+    /* gap: 53px; */
+}
+.to-be{
+    width: 360px;
+}
+#login{
+text-decoration: none;
+background-color: black;
+color: white;
+}
+button{
+    background-color: black;
+}
+button:active{
+    transform: translateY(2px);
+}
+
+
+

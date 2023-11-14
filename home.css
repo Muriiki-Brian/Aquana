@@ -114,6 +114,7 @@ body{
     margin-right:0;
     height: auto;
     border-radius: 10px;
+    width: 100%;
 }
 #refreshment{
     display: flex;
@@ -354,8 +355,7 @@ text-indent: .5rem;
 outline: none;
 }
 .submit{
-    height: 38px;
-    /* width: 100px; */
+    height: 29px;
     padding: 0px 5px;
     background-color: blue;
     color: white;
@@ -435,6 +435,15 @@ outline: none;
     .nav-elements-div{
         display: none;
     }
+    .intro{
+        height: auto;
+    }
+    #refreshment{
+        font-size: 2.5rem;
+    }
+    #count{
+        font-size: .9rem;
+    }
     .links{
         grid-template-columns: auto auto;
     }
@@ -479,6 +488,12 @@ outline: none;
 }
 
 @media (max-width:500px){
+    .intro{
+        grid-template-columns: auto;
+        height: auto;
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+    }
     .footer p,.footer a,.footer span{
         font-size:15px;
     }
@@ -499,8 +514,12 @@ outline: none;
         width:100%;
        margin: 1rem 0;
     }
-    
+    .submit{
+       height: 39px;
+    }
+
     fieldset #email{
        width: 75%;
+       height: 35px;
     }
 }
